@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Wireframe Ship Viewer</title>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <style>
+    body { margin: 0; }
+    model-viewer {
+      width: 100vw;
+      height: 100vh;
+      background-color: #000;
+    }
+  </style>
+</head>
+<body>
+  <model-viewer 
+    src="wireframe_ship.glb" 
+    auto-rotate 
+    camera-controls 
+    exposure="1"
+    style="filter: invert(1) contrast(2);">
+  </model-viewer>
+</body>
+</html>
